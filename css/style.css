@@ -1,0 +1,289 @@
+*{margin: 0px; padding: 0px;}
+.header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.triangl{
+    margin-left: -270px;
+    margin-top: -5px;
+}
+.nav li{
+    color: white;
+    font-family: 'Lato Light', Arial, sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    display: inline;
+    text-align: center;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+}
+.nav a:hover{
+    text-shadow: 2px 2px 10px rgba(47, 93, 163, 0.712);
+    color: rgb(5, 226, 226);
+}
+.nav button{
+    margin-left: 15px;
+    padding: 7px 15px;
+    border: 1px solid rgb(14, 214, 221);
+    font-family: 'Lato Light', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 90%;
+}
+#btn-reg{
+    color: white;
+    background: rgb(12,240,240);
+    background: linear-gradient(140deg, rgb(12, 221, 221) 0%, rgb(49, 197, 211) 53%, rgba(28,166,237,1) 100%);
+    border: 1px solid rgb(16, 208, 214);
+    border-radius: 4px;
+}
+#btn-log{
+    background: rgba(98, 80, 161, 0);
+    border: 1px solid rgb(14, 214, 221);
+    border-radius: 4px;
+    color: white;
+}
+button, .block{
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+button:hover, .block:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.main{
+    width: 100%;
+    height: 900px;
+    background: url(../img/background.jpg);
+    background-size: contain;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main_text{
+    padding: 180px 50px;
+}
+.text11 h1{
+    color: white;
+    font-family: 'URW-Bernhard-Gothic-Medium', sans-serif;
+    font-weight: bold;
+    font-size: 370%;
+}
+.text13{
+    padding: 60px 0 40px;
+    color: rgba(216, 213, 243, 0.767);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 130%;
+    line-height: 28px;
+    word-spacing: 8px;
+    font-weight: bolder;
+}
+.main_text .btn{
+    display: inline;
+}
+.btn #btn-log{
+    padding: 19px 75px;
+    margin-left: 30px;
+}
+.btn button{
+    color: white;
+    padding: 19px 55px;
+    font-family: 'Lato Light', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 120%;
+    margin-top: 30px;
+}
+.text11 h2{
+    color: white;
+    font-family: 'URW-Bernhard-Gothic-Medium', sans-serif;
+    font-weight: lighter;
+    font-size: 270%;
+    margin-top: 100px;
+    word-spacing: 7px;
+}
+.container2{
+    background: rgba(239, 231, 252, 0.897);
+    background: url(../img/background2.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 150px;
+}
+#text21{
+    color: rgba(27, 31, 49, 0.863);
+    font-weight: bold;
+}
+.main_text2{
+    padding: 30px;
+    width: 600px;
+}
+.container22{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10px 0;
+}
+.block{
+    width: 225px;
+    height: 300px;
+    background-color: rgb(252, 249, 255);
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgba(140, 96, 190, 0.603);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.co2{
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+#text22{
+    color: rgba(106, 86, 160, 0.918);
+    font-weight: lighter;
+    padding: 45px 0;
+}
+.co2 h3, .co2 p{
+    padding: 20px 0;
+    font-family: 'URW-Bernhard-Gothic-Medium', sans-serif;
+    color: rgba(58, 45, 128, 0.918);
+    text-align: center;
+}
+.co2 p{
+    color: rgba(102, 92, 151, 0.753);
+}
+.co2 .line{
+    background-color: rgb(83, 57, 153);
+    width: 30px;
+    height: 3px;
+}
+.line2{
+    background-color: rgb(108, 90, 156);
+    width: 225px;
+    height: 7px;
+    border-radius: 0 0 6px 6px;
+}
+#text31{
+    margin-top: 0;
+    padding: 30px 0;
+    text-align: center;
+}
+#text32{
+    color: rgba(216, 213, 243, 0.767);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 130%;
+    line-height: 28px;
+    word-spacing: 8px;
+    font-weight: bolder;
+    text-align: center;
+}
+.container3{
+    background: rgb(102, 105, 182);
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.co3{
+    height: 100px;
+}
+.co3 input{
+    border-radius: 4px;
+    height: 60px;
+    width: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 108%;
+    border: 0;
+    color: rgb(66, 66, 122);
+}
+.co3 button{
+    margin-left: 25px;
+    padding: 19px 40px;
+    border-radius: 5px;
+    font-family: 'Lato Light', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 110%;
+}
+.container4{
+    background: url(../img/background3.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#text41{
+    margin-top: 0;
+    padding: 70px 0 20px;
+    text-align: center;
+    color: rgba(58, 45, 128, 0.918);
+}
+#text42{
+    color: rgba(155, 138, 202, 0.788);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 130%;
+    line-height: 28px;
+    word-spacing: 8px;
+    font-weight: bolder;
+    text-align: center;
+}
+.co4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 50px 0;
+}
+.co4 .block{
+    margin-left: 100px;
+} 
+.footer{
+    background: rgb(102, 105, 182);
+    width: 100%;
+    height: 80px;
+    padding: 60px 300px 0;
+}
+.footer li{
+    color: white;
+    font-family: 'Lato Light', Arial, sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    display: inline;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding: 0 80px;
+    font-size: 130%;
+}
+.footer a:hover{
+    text-shadow: 2px 2px 10px rgba(47, 93, 163, 0.712);
+    color: rgb(5, 226, 226);
+}
